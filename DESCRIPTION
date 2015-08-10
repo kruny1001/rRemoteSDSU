@@ -1,51 +1,22 @@
 Package: rRemoteSDSU
-Type: Package
 Title: rRemoteSDSU Web Application
 Version: 1.0
 Date: 2015-08-10
 Author: kevin
 Maintainer: Kevin <eson10660@jacks.sdstate.edu>
 Description: .
-License: AGPL
-LazyData: no
+Depends:
+    R (>= 3.1.0)
 Imports:
-    ggplot2,
-    plyr,
-    lattice,
-    RCurl,
-    RJSONIO,
-    whisker,
-    yaml
-Suggests: opencpu (>= 1.2)
-Collate:
-    'areaplot.R'
-    'getcurrent.R'
-    'highlowplot.R'
-    'listbyindustry.R'
-    'liststocks.R'
-    'makestocktable.R'
-    'plotwrapper.R'
-    'smoothplot.R'
-    'yahoodata.R'
-    'utils.R'
-    'utils-rickshaw.R'
-    'rChartsClass.R'
-    'Datatables.R'
-    'Dimple.R'
-    'Polycharts.R'
-    'Morris.R'
-    'Nvd3.R'
-    'Rickshaw.R'
-    'xCharts.R'
-    'toJSON.R'
-    'getLayer.R'
-    'renderChart.R'
-    'showOutput.R'
-    'gist.R'
-    'publish.R'
-    'Highcharts.R'
-    'Vega.R'
-    'Leaflet.R'
-    'makeExamples.R'
-    'Timeline.R'
-    'Uvcharts.R'
+    Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests:
+    abind,
+    testthat,
+    tcltk,
+    foreach,
+    doParallel,
+    itertools,
+    iterators
+License: MIT + file LICENSE
+LazyData: true
