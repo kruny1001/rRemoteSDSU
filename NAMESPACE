@@ -2,19 +2,7 @@
 
 S3method(print,opencpu)
 S3method(print,rhttpd)
-export(cleanup)
-export(opencpu)
-export(rhttpd)
 
-
-export(areaplot)
-export(getcurrent)
-export(highlowplot)
-export(listbyindustry)
-export(makestocktable)
-export(plotwrapper)
-export(smoothplot)
-export(yahoodata)
 
 
 import(parallel)
