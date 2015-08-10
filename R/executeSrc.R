@@ -1,4 +1,4 @@
-make_chart <- function(text){
+executeSrc <- function(text){
   writeLines(text, con="input.R")
   chart = source('input.R', local = TRUE)$value
   # chart$set(width = 700)
