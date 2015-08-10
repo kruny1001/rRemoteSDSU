@@ -20,14 +20,7 @@ Suggests:
     iterators
 License: MIT + file LICENSE
 LazyData: true
-Imports:
-    ggplot2,
-    plyr,
-    lattice,
-    RCurl,
-    RJSONIO,
-    whisker,
-    yaml
+
 Collate:
     'areaplot.R'
     'getcurrent.R'
