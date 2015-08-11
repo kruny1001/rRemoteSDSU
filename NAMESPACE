@@ -2,6 +2,7 @@
 
 export(test)
 export(runSrc)
+export(meanJson)
 
 import(parallel)
 import(stats)
