@@ -2,7 +2,6 @@
 
 export(test)
 export(executeSrc)
-export()
 
 import(parallel)
 import(stats)
