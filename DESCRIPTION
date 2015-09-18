@@ -18,4 +18,4 @@ Imports:
     parallel,
     stats,
     tools,
-    utils
+    util
