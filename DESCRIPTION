@@ -19,5 +19,3 @@ Imports:
     stats,
     tools,
     utils
-Collate:
-    'utils.R'
