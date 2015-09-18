@@ -4,10 +4,6 @@ export(test)
 export(runSrc)
 export(meanJson)
 export(plotTest)
-
-
-
-
 export(areaplot)
 export(getcurrent)
 export(highlowplot)
@@ -22,14 +18,12 @@ import(plyr)
 import(RJSONIO)
 import(whisker)
 import(yaml)
-importFrom(lattice,latticeParseFormula)
-
-
-
 import(parallel)
 import(stats)
 import(tools)
 import(utils)
+
+importFrom(lattice,latticeParseFormula)
 importFrom(brew,brew)
 importFrom(devtools,install_github)
 importFrom(evaluate,evaluate)
