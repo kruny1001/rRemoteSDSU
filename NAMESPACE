@@ -5,6 +5,27 @@ export(runSrc)
 export(meanJson)
 export(plotTest)
 
+
+
+
+export(areaplot)
+export(getcurrent)
+export(highlowplot)
+export(listbyindustry)
+export(makestocktable)
+export(plotwrapper)
+export(smoothplot)
+export(yahoodata)
+import(ggplot2)
+
+import(plyr)
+import(RJSONIO)
+import(whisker)
+import(yaml)
+importFrom(lattice,latticeParseFormula)
+
+
+
 import(parallel)
 import(stats)
 import(tools)

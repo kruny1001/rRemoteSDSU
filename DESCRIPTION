@@ -8,7 +8,14 @@ Description: .
 Depends:
     R (>= 3.1.0)
 Imports:
-    Rcpp (>= 0.11.0)
+    Rcpp (>= 0.11.0),
+    ggplot2,
+    plyr,
+    lattice,
+    RCurl,
+    RJSONIO,
+    whisker,
+    yaml
 LinkingTo: Rcpp
 Suggests:
     abind,
@@ -20,3 +27,35 @@ Suggests:
     iterators
 License: MIT + file LICENSE
 LazyData: true
+Collate:
+    'areaplot.R'
+    'getcurrent.R'
+    'highlowplot.R'
+    'listbyindustry.R'
+    'liststocks.R'
+    'makestocktable.R'
+    'plotwrapper.R'
+    'smoothplot.R'
+    'yahoodata.R'
+    'utils.R'
+    'utils-rickshaw.R'
+    'rChartsClass.R'
+    'Datatables.R'
+    'Dimple.R'
+    'Polycharts.R'
+    'Morris.R'
+    'Nvd3.R'
+    'Rickshaw.R'
+    'xCharts.R'
+    'toJSON.R'
+    'getLayer.R'
+    'renderChart.R'
+    'showOutput.R'
+    'gist.R'
+    'publish.R'
+    'Highcharts.R'
+    'Vega.R'
+    'Leaflet.R'
+    'makeExamples.R'
+    'Timeline.R'
+    'Uvcharts.R'
