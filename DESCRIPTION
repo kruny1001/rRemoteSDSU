@@ -59,3 +59,7 @@ Collate:
     'makeExamples.R'
     'Timeline.R'
     'Uvcharts.R'
+    'executeSrc.R'
+    'meanJson.R'
+    'plotTest.R'
+    'test.R'
