@@ -2,6 +2,7 @@
 
 export(plotTest)
 export(smoothplot)
+export(util)
 
 import(ggplot2)
 import(plyr)
