@@ -7,8 +7,9 @@ Maintainer: Kevin <eson10660@jacks.sdstate.edu>
 Description: .
 Depends:
     R (>= 3.1.0)
+License: MIT + file LICENSE
+LazyData: true
 Imports:
-    Rcpp (>= 0.11.0),
     ggplot2,
     plyr,
     lattice,
@@ -16,7 +17,7 @@ Imports:
     RJSONIO,
     whisker,
     yaml
-LinkingTo: Rcpp
+
 Suggests:
     abind,
     testthat,
@@ -25,8 +26,7 @@ Suggests:
     doParallel,
     itertools,
     iterators
-License: MIT + file LICENSE
-LazyData: true
+
 Collate:
     'areaplot.R'
     'getcurrent.R'
