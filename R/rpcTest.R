@@ -1,13 +1,11 @@
-var mydata = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+library(jsonlite)
 
-//call R function: stats::sd(x=data)
-var req = ocpu.rpc("sd",{
-    x : mydata
-}, function(output){
-    alert("Standard Deviation equals: " + output);
-});
+#parse input from JSON into R
+jsoninput <- '{"x" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}'
+fnargs <- fromJSON(jsoninput)
 
-//optional
-req.fail(function(){
-    alert("R returned an error: " + req.responseText);
-});
+#the actual function call
+result <- do.call(stats::sd, fnargs)
+
+#convert result back to JSON
+jsonoutput <- toJSON(result)
