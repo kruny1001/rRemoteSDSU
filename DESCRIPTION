@@ -12,11 +12,10 @@ LazyData: true
 Imports:
     ggplot2,
     plyr,
-    lattice,
-    RCurl,
     RJSONIO,
     whisker,
-    yaml
-
-Collate:
-    'plotTest.R'
+    yaml,
+    parallel,
+    stats,
+    tools,
+    utils
