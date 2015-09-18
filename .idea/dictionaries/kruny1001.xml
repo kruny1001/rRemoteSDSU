@@ -1322,6 +1322,7 @@
       <w>fixed</w>
       <w>fixed.effects</w>
       <w>fixef</w>
+      <w>flatten</w>
       <w>flattenAssignment</w>
       <w>fligner.test</w>
       <w>floor</w>
@@ -1377,6 +1378,7 @@
       <w>freduce</w>
       <w>frequency</w>
       <w>friedman.test</w>
+      <w>fromJSON</w>
       <w>fs.boundary</w>
       <w>fs.test</w>
       <w>ftable</w>
@@ -1908,6 +1910,7 @@
       <w>join.keys</w>
       <w>join_all</w>
       <w>jpeg</w>
+      <w>jsonlite</w>
       <w>julian</w>
       <w>julian.Date</w>
       <w>julian.POSIXt</w>
@@ -2186,6 +2189,7 @@
       <w>mgcv</w>
       <w>mget</w>
       <w>min</w>
+      <w>minify</w>
       <w>mirror2html</w>
       <w>missing</w>
       <w>missingArg</w>
@@ -2275,6 +2279,7 @@
       <w>newBasic</w>
       <w>newClassRepresentation</w>
       <w>newEmptyObject</w>
+      <w>newJSONParser</w>
       <w>news</w>
       <w>next</w>
       <w>nextRNGStream</w>
@@ -2604,6 +2609,7 @@
       <w>prepanel.tmd.default</w>
       <w>prepanel.tmd.qqmath</w>
       <w>preplot</w>
+      <w>prettify</w>
       <w>pretty</w>
       <w>pretty.default</w>
       <w>prettyNum</w>
@@ -2791,6 +2797,7 @@
       <w>rbind.data.frame</w>
       <w>rbind.fill</w>
       <w>rbind.fill.matrix</w>
+      <w>rbind.pages</w>
       <w>rbind2</w>
       <w>rbinom</w>
       <w>rc.getOption</w>
@@ -2933,6 +2940,7 @@
       <w>rhyper</w>
       <w>ridge</w>
       <w>rig</w>
+      <w>rjson</w>
       <w>rle</w>
       <w>rlnorm</w>
       <w>rlogis</w>
@@ -3097,6 +3105,7 @@
       <w>sequence</w>
       <w>sequential_hcl</w>
       <w>serialize</w>
+      <w>serializeJSON</w>
       <w>sessionInfo</w>
       <w>set.seed</w>
       <w>setAs</w>
@@ -3354,6 +3363,8 @@
       <w>str_trim</w>
       <w>str_wrap</w>
       <w>strata</w>
+      <w>stream_in</w>
+      <w>stream_out</w>
       <w>strftime</w>
       <w>strheight</w>
       <w>stri_c</w>
@@ -3971,6 +3982,7 @@
       <w>tmerge</w>
       <w>toBibtex</w>
       <w>toHTML</w>
+      <w>toJSON</w>
       <w>toLatex</w>
       <w>toRd</w>
       <w>toString</w>
@@ -4055,6 +4067,7 @@
       <w>type.convert</w>
       <w>typeof</w>
       <w>unRematchDefinition</w>
+      <w>unbox</w>
       <w>unclass</w>
       <w>undebug</w>
       <w>undebug_fseq</w>
@@ -4091,6 +4104,7 @@
       <w>unpack</w>
       <w>unrowname</w>
       <w>unserialize</w>
+      <w>unserializeJSON</w>
       <w>unsplit</w>
       <w>unstack</w>
       <w>untangle.specials</w>
@@ -4123,6 +4137,7 @@
       <w>validDetails</w>
       <w>validObject</w>
       <w>validSlotNames</w>
+      <w>validate</w>
       <w>value_slice</w>
       <w>vapply</w>
       <w>var</w>

@@ -3,6 +3,7 @@
 export(test)
 export(runSrc)
 export(meanJson)
+export(plotTest)
 
 import(parallel)
 import(stats)
