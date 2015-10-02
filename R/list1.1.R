@@ -11,3 +11,9 @@ runSrc <- function(text){
   result = source('input.R', local = TRUE)
   return(result)
 }
+
+t <- runSrc(text = "age <- c(1,3,5,2,11,9,3,9,12,3)\nmean(age)")
+t
+age <- c(1,3,5,2,11,9,3,9,12,3) 
+mean(age)
+sd(age)
