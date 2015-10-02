@@ -2,6 +2,7 @@
 
 export(areaplot)
 export(getcurrent)
+export(hello)
 export(highlowplot)
 export(makestocktable)
 export(plotwrapper)

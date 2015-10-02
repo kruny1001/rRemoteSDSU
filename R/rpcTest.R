@@ -1,12 +1,14 @@
-
-library(jsonlite)
-
-#parse input from JSON into R
-jsoninput <- '{"x" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}'
-fnargs <- fromJSON(jsoninput)
-
-#the actual function call
-result <- do.call(stats::sd, fnargs)
-
-#convert result back to JSON
-jsonoutput <- toJSON(result)
+#' Hello World
+#' 
+#' Basic hello world function to be called from the demo app
+#' 
+#' @export
+#' @param myname your name. Required.
+hello <- function(myname = ""){
+  if(myname == ""){
+    stop("Tell me your name!")
+  }
+  list(
+    message = paste("hello", myname, "! This is", R.Version()$version.string)
+  )
+}
