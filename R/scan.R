@@ -14,8 +14,9 @@
 #' 
 #' 
 #' 
-
-
-json_file <- "https://statsdsu.firebaseio.com/data1.json"
-json_data <- fromJSON(paste(readLines(json_file), collapse=""))
-hist(json_data)
+#' 
+scanR <- function(ticker = "GOOG", from = "2013-01-01", to=Sys.time()){
+  json_file <- "https://statsdsu.firebaseio.com/data1.json"
+  json_data <- fromJSON(file=json_file)
+  hist(json_data)
+}
