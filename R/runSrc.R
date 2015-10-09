@@ -9,5 +9,11 @@
 runSrc <- function(text){
   writeLines(text, con="input.R")
   result = source('input.R', local = TRUE)
+  
+  
   return(result)
 }
+
+code <- '1+1'
+writeLines(code, con="input.R")
+result = source('input.R', local = TRUE)

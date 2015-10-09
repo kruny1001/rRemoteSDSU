@@ -12,7 +12,7 @@ LazyData: true
 Imports:
     ggplot2,
     plyr,
-    RJSONIO,
+    rjson,
     whisker,
     yaml,
     parallel,
