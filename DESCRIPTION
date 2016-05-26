@@ -16,4 +16,3 @@ Imports:
     parallel,
     stats,
     tools,
-    rCharts,
