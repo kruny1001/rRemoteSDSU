@@ -3,3 +3,4 @@
 export(runSrc)
 import(ggplot2)
 import(rjson)
+import(rCharts)
