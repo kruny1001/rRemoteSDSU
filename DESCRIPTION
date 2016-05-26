@@ -13,9 +13,8 @@ Imports:
     ggplot2,
     plyr,
     rjson,
-    whisker,
-    yaml,
     parallel,
     stats,
     tools,
-    rCharts,
+    rCharts
+ 

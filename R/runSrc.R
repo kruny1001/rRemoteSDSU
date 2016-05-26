@@ -2,18 +2,13 @@
 #' 
 #' Returns a row with the latest price for a given stock.
 #' 
-#' @param source code of R
+#' @param text source code of R. Required.
+#' @return ggplot object.
 #' @export
 #' 
 
-runSrc <- function(text){
+runSrc <- function(text= ""){
   writeLines(text, con="input.R")
   result = source('input.R', local = TRUE)
-  
-  
   return(result)
 }
-
-code <- '1+1'
-writeLines(code, con="input.R")
-result = source('input.R', local = TRUE)
