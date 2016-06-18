@@ -2,3 +2,4 @@
 .Rhistory
 .RData
 .extdata
+.httr-oauth

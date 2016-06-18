@@ -7,7 +7,8 @@
 #' @export
 #' 
 
-runSrc <- function(text= ""){
+runSrc <- function(text= "a <- 1+1", keep.source = TRUE){
+  #library(ggplot2)
   writeLines(text, con="input.R")
   result = source('input.R', local = TRUE)
   return(result)
