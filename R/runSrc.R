@@ -13,8 +13,5 @@ runSrc <- function(text= "a <- 1+1", keep.source = TRUE){
   
   writeLines(text, con="input.R")
   result <- source('input.R', local = TRUE)
-  print(result)
-  if(result$visible == TRUE)
-    print("visible")
   jsonoutput <- toJSON(result)
 }
