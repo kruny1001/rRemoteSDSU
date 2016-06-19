@@ -1,2 +1,2 @@
-output <- rnorm(1000, 100, 15)
-qplot(output)
+library(ggplot2)
+ qplot(Sepal.Width, Sepal.Length, data = iris)

@@ -8,8 +8,13 @@
 #' 
 
 runSrc <- function(text= "a <- 1+1", keep.source = TRUE){
-  #library(ggplot2)
+  library(ggplot2)
+  library(jsonlite)
+  
   writeLines(text, con="input.R")
-  result = source('input.R', local = TRUE)
-  return(result)
+  result <- source('input.R', local = TRUE)
+  print(result)
+  if(result$visible == TRUE)
+    print("visible")
+  jsonoutput <- toJSON(result)
 }
