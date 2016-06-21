@@ -13,7 +13,8 @@ baseball <- function(text= "a <- 1+1", keep.source = TRUE){
   library(readr) 
   writeLines(text, con="input.R")
   result <- source('input.R', local = TRUE)
-  salary <- read_csv("../input/salary.csv")
+  salary <- read_csv("https://raw.githubusercontent.com/kruny1001/rRemoteSDSU/master/input/salary.csv")
+  getwd()
   print(salary)
   jsonoutput <- toJSON(result)
 }
