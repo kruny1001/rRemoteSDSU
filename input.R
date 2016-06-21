@@ -1,2 +1,1 @@
-library(ggplot2)
- qplot(Sepal.Width, Sepal.Length, data = iris)
+a <- 1+1

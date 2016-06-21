@@ -17,4 +17,5 @@ Imports:
     stats,
     tools,
     httpuv,
-    jsonlite
+    jsonlite,
+    readr
