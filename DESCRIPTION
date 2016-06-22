@@ -18,4 +18,5 @@ Imports:
     tools,
     httpuv,
     jsonlite,
-    readr
+    readr,
+    rentrez
