@@ -1,4 +1,4 @@
-{ questions:
+{ 'questions':
 { '1': [ 5, 5, 4, 4, 3, 4, 5, 5, 4, 4, 4, 5, 5, 5, 4 ],
   '2': [ 2, 1, 1, 1, 1, 1, 5, 1, 3, 1, 1, 1, 2, 1, 2 ],
   '3': [ 5, 5, 5, 5, 5, 3, 4, 5, 4, 5, 3, 5, 5, 4, 3 ],
@@ -38,7 +38,7 @@
   '37': [ 5, 4, 4, 4, 3, 4, 4, 4, 3, 3, 1, 4, 5, 4, 4 ],
   '38': [ 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 2, 5, 5, 4, 5 ],
   '39': [ 5, 5, 3, 5, 3, 4, 4, 2, 4, 3, 1, 3, 5, 4, 3 ] },
-  msg:
+  'msg':
   [ 'A really fantastic camp. ',
     'I enjoyed this camp a lot more than I thought I would. I would like to have more self-led, go at your own pace lessons, like the Excel lesson. The Shiny lesson where we were all going at the same time and kept getting stuck was very confusing.',
     'Just include more variety in the food and the class time.  I didn\'t like sitting at the computer the entire time reading other people\'s data.  I liked it better when we went out and got the data ourselves because it made more sense and I understood the data better.   ',
@@ -54,7 +54,7 @@
     'I think the camp was really good. I enjoyed saying at Honors Hall and all of the extra activities and opportunities like going on tours and going to the Wellness Center. The project really helped finalize my understanding and use of R. A suggestion for the future would be to introduce R more simply on the first day. Overall the camp went well and thank you all for putting it on.',
     'I really liked how there was only a small number of other students attending the camp. I also liked how this camp gave me the opportunity to talk with the head of departments who run the programs that interest me. It was nice that this camp only went from monday until thursday--other camps are usually sunday to friday and I don\'t like how long those are. It was fun to learn R, although I was expecting that the camp would be based more on math  and learning about statistics, but it seem more oriented toward computer programming, which is ok, it just wasn\'t what I expected. It was very nice to stay in Honors halls. This camp was very helpful to me, since I am entering my senior year and I am considering SDSU, however, I don\'t know if it was helpful to the people entering freshman or sophomore years. I am very glad that I attended this camp. I do however, have one complaint about the food: lunch and dinner meals are great, but it seemed like the only options for breakfast were \'dessert breakfast foods\'. In addition to apples, it would have been nice to have oranges or bananas or other non-dessert-like breakfasts foods. I liked the schedule -it had a good balance of class-time and free time and I enjoyed the tours of the campus and its facilities. I didn\'t care for movie night, perhaps you could have the students vote whether to have a movie night or a different activity. I genuinely appreciate the free bag and lanyard. Thank you!',
     'i think that there should be some coffee and hot chocolate stuff for breakfast and meals, also the lunches were almost too long, and there should be more non-learning activities to increase student interaction.' ],
-  major:
+  'major':
   [ 'my teacher suggests me to attend',
     'Mechanical Engineering',
     'Cyber Security',
@@ -70,7 +70,7 @@
     'Math, Computer Science, or Engineering',
     'Math...for now',
     'chemistry/biology' ],
-  gender:
+  'gender':
   [ 'female',
     'female',
     'female',
