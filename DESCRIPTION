@@ -20,4 +20,8 @@ Imports:
     jsonlite,
     readr,
     rentrez,
-    gskb
+    biocViews (>= 1.33.7), BiocInstaller, graph, httr, tools, optparse,
+         codetools, methods
+Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr,
+          devtools (>= 1.4.1)
+biocViews: Infrastructure
