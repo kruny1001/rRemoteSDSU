@@ -19,4 +19,5 @@ Imports:
     httpuv,
     jsonlite,
     readr,
-    rentrez
+    rentrez,
+    gskb
