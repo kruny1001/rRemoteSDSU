@@ -19,9 +19,9 @@ Imports:
     httpuv,
     jsonlite,
     readr,
-    rentrez,
-    biocViews (>= 1.33.7), BiocInstaller, graph, httr, tools, optparse,
-         codetools, methods
+    igraph,
+    kernlab,
+    sand
 Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr,
           devtools (>= 1.4.1)
 biocViews: Infrastructure
