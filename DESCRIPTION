@@ -21,7 +21,12 @@ Imports:
     readr,
     igraph,
     kernlab,
-    sand
+    sand,
+    HSAUR3,
+    GGally,
+    mboost,
+    rpart,
+    wordcloud
 Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr,
           devtools (>= 1.4.1)
 biocViews: Infrastructure
