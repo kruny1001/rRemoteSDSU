@@ -26,7 +26,8 @@ Imports:
     GGally,
     mboost,
     rpart,
-    wordcloud
+    wordcloud,
+    data.table
 Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr,
           devtools (>= 1.4.1)
 biocViews: Infrastructure
