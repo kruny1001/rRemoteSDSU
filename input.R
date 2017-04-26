@@ -1,4 +1,4 @@
-#update
+#update1
 library(rentrez)
 
 entrez_dbs( ) # list of all databases
