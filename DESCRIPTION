@@ -28,6 +28,6 @@ Imports:
     rpart,
     wordcloud,
     data.table
-Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr,
-          devtools (>= 1.4.1)
+Suggests: RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr, devtools
 biocViews: Infrastructure
+RoxygenNote: 6.0.1
