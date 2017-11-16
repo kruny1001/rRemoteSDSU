@@ -22,12 +22,11 @@ Imports:
     igraph,
     kernlab,
     sand,
-    HSAUR3,
     GGally,
     mboost,
     rpart,
     wordcloud,
     data.table
-Suggests: BiocInstaller, RUnit, BiocGenerics, Biobase, RJSONIO, rmarkdown, knitr, devtools
+Suggests: RUnit, RJSONIO, rmarkdown, knitr, devtools
 biocViews: Infrastructure
 RoxygenNote: 6.0.1
