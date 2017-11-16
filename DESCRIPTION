@@ -28,5 +28,4 @@ Imports:
     wordcloud,
     data.table
 Suggests: RUnit, RJSONIO, rmarkdown, knitr, devtools
-biocViews: Infrastructure
 RoxygenNote: 6.0.1
