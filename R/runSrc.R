@@ -10,7 +10,8 @@
 runSrc <- function(text= "a <- 1+1", keep.source = TRUE){
   library(ggplot2)
   library(jsonlite)
-  
+  library(RJSONIO)
+  library(readr)
   writeLines(text, con="input.R")
   result <- source('input.R', local = TRUE)
   jsonoutput <- toJSON(result)
